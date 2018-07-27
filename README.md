@@ -1,8 +1,14 @@
-# dh-react-2018-chatserver
+# Chat Server API
+
+## Para comenzar
+
+Instalar dependencias
 
 ```
 npm install
 ``` 
+
+Iniciar el servidor
 
 ```
 npm start
@@ -10,15 +16,14 @@ npm start
 
 ## Endpoints
 
-| URL           | Verbo | Descripcion              |
-|---------------|-------|--------------------------|
-| /api/messages | GET   | Listado de mensajes      |
-| /api/messages | POST  | Enviar un nuevo mensaje  |
-| /api/members  | GET   | Listado de participantes |
-| /api/members  | POST  | Ingresar al chat         |
+| URL             | Verbo     | Descripción              |
+|-----------------|-----------|--------------------------|
+| `/api/messages` | **GET**   | Listado de mensajes      |
+| `/api/messages` | **POST**  | Enviar un nuevo mensaje  |
+| `/api/members`  | **GET**   | Listado de participantes |
+| `/api/members`  | **POST**  | Ingresar al chat         |
 
 ### Listado de mensajes
-
 
 Pedido
 
