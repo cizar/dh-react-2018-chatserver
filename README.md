@@ -1,5 +1,7 @@
 # Chat Server API
 
+[![Chat Server API](https://img.youtube.com/vi/Ibs5w-1uniU/0.jpg)](https://www.youtube.com/watch?v=Ibs5w-1uniU)
+
 ## Para comenzar
 
 Instalar dependencias
