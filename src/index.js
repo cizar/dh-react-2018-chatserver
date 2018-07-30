@@ -44,7 +44,7 @@ app.get('/api/messages', (req, res) => {
   if (index === -1) {
     return res.send(messages)
   } else {
-    return res.send(messages.slice(index))
+    return res.send(messages.slice(index + 1))
   }
 })
 
